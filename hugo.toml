@@ -1,0 +1,22 @@
+baseURL = "https://www.tayleyi.com"
+languageCode = "en-us"
+title = "Taylor Yang"
+theme = "devise"
+copyright = "&copy; 2024"
+
+[params]
+  author = "Taylor Yang"
+  description = "New graduate portfolio page for Taylor Yang. Includes personal projects, school assignments, and more."
+  header_title = "Taylor Yang"
+  header_subtitle = "Currently looking for new grad roles in software engineering or data science."
+  home_image = "/images/avatar.jpg"
+
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-1x"
+    href = "https://linkedin.com/in/yang-taylor"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"
+    href = "https://github.com/yang-taylor"
+  [[params.social]]
+    fa_icon = "fas fa-envelope fa-1x"
+    href = "mailto:tayloryang9264@gmail.com"
