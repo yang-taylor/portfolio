@@ -7,3 +7,21 @@
 [submodule "themes/devise"]
 	path = themes/devise
 	url = https://github.com/austingebauer/devise.git
+[submodule "themes/maverick"]
+	path = themes/maverick
+	url = https://github.com/canhtran/maverick.git
+[submodule "themes/typo"]
+	path = themes/typo
+	url = https://github.com/tomfran/typo.git
+[submodule "themes/hugo-index"]
+	path = themes/hugo-index
+	url = https://github.com/adityatelange/hugo-index.git
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack
+[submodule "hugo-theme-stack"]
+	path = hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack

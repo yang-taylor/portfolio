@@ -10,11 +10,11 @@
     <lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Retro Mobile Gaming Database</title>
-      <link>http://localhost:1313/posts/rmgd/</link>
+      <title>[Java, JS, SQL] Retro Mobile Gaming Database</title>
+      <link>http://localhost:1313/posts/2024/rmgd/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rmgd/</guid>
-      <description>&lt;h1 id=&#34;retro-mobile-gaming-database&#34;&gt;Retro Mobile Gaming Database&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/posts/2024/rmgd/</guid>
+      <description>&lt;h1 id=&#34;retro-mobile-gaming-database&#34;&gt;Retro Mobile Gaming Database&lt;/h1&gt;&#xA;&lt;p&gt;In Spring 2024, I worked as a software research assistant (RA) in the Networked Mobilities Lab (NML).&#xA;The NML was operated by Dr. Adriana De Souza e Silva in the College of Humanities and Social Sciences, at North Carolina State University.&#xA;While I was in the NML, I was one out of three software RAs.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Retro Mobile Gaming Database (RMGD)&lt;/strong&gt; was an NML project that sought to catalog mobile games from 1975 to 2008.&#xA;Users could search for games using multiple search criteria, filtering by title, year developed, type of game, and so on.&#xA;This could support researchers to find games and find correlations among historical types of mobile games.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

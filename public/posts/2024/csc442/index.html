@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    [R] Data wrangling and unsupervised learning course project | Taylor Yang
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/2024/csc442/"/>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.1b30d651819daff0be2eb72e29c6d7b1e8846182d31842822600174f4a20be48.css" media="all">
+
+
+
+
+
+  </head>
+
+  
+
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">Taylor Yang</h1>
+
+    <div class="flex">
+        
+
+        
+    </div>
+
+    
+
+</div>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/2024/csc442/">[R] Data wrangling and unsupervised learning course project</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">[R] Data wrangling and unsupervised learning course project</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-04-23T00:00:00&#43;00:00">April 23, 2024</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <h1 id="background">Background</h1>
+<p>I took <strong>CSC 442 Introduction to Data Science</strong> in Spring 2024.
+This course explored the data science lifecycle, including data collection, data wrangling and cleaning, data mining, data analysis, and data visualization.
+Practical applications of course content was taught in R.</p>
+<h1 id="final-project">Final project</h1>
+<p>The parameters of the final course project were to find two large data sets and find &ldquo;something interesting&rdquo; about the data.
+We could use any technique or any dataset.</p>
+<h2 id="defining-success-of-high-grossing-movies-of-2023">Defining success of high grossing movies of 2023</h2>
+<p>I worked with two teammates (A. Carlson, A. Godwin) on <a href="https://www.kaggle.com/datasets/mohammadrizwansajjad/top-200-movies-of-2023/code">Top 200 Movies of 2023 Dataset</a>
+and <a href="https://www.kaggle.com/datasets/kianindeed/imdb-movie-dataset-dec-2023">IMDB Movie Dataset (1938-Dec 2023)</a>.</p>
+<p>As a team, we had the same problem statement: &ldquo;Exploring which factors affect a movie&rsquo;s success in box office revenue.&rdquo;
+However, although we did work on the same datasets, the majority of our work was performed individually.</p>
+<p>I decided to explore <em>&ldquo;Is there a relationship between the demographic variables of actors (like age) and success (total gross) of movies in 2023?&rdquo;</em></p>
+<p>My analysis was written in R, using Posit Cloud.
+In order to support my task, I brought in an additional dataset: <a href="https://developer.imdb.com/non-commercial-datasets/">IMDb Non-Commerical Datasets</a>.</p>
+<h1 id="process-and-results">Process and results</h1>
+<ol>
+<li>The team cleaned the original two datasets (<em>Top 200 Movies of 2023 Dataset</em>, <em>IMDB Movie Dataset</em>) together.
+This included:
+<ul>
+<li>converting numerical attributes from strings to numeric values</li>
+<li>converting categorical attributes (PG rating, movie distributor, etc) into factors</li>
+<li>dropping outliers in total gross revenue</li>
+</ul>
+</li>
+<li>Since I wanted to use a supplemental dataset, I had to wrangle that as well.
+This step took the longest, since the supplemental dataset was very large.
+The supplemental dataset also had a lot of repeat values or special characters, which had to be handled separately.</li>
+<li>I went into the analysis without a specific outcome in mind, so I decided to use <strong>clustering</strong> (an unsupervised approach).
+I started with hierarchical clustering, producing a very dense dendrogram.
+I ended up choosing to prune at four clusters, since this produced useful patterns on my final plot.</li>
+</ol>
+<h2 id="visualization">Visualization</h2>
+<p>In the final lot, the clusters are mostly grouped by age.
+There is a group that is not grouped by age, which could be defined as the &ldquo;top performing&rdquo; actors.
+It is difficult to determine what makes these actors different from others, so more demographic data would be needed for a more thorough conclusion.</p>
+<p>Axes in the plot are measured in terms of standard deviations from the mean.</p>
+<img src="2024-csc442.png" width="" height="">
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/2022/hosa/">
+                        [JS] Family Feud clone
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/2024/rmgd/">
+                        [Java, JS, SQL] Retro Mobile Gaming Database
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>

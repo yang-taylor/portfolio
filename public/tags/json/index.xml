@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Json on Taylor Yang</title>
+    <link>http://localhost:1313/tags/json/</link>
+    <description>Recent content in Json on Taylor Yang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2024</copyright>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[JS] Family Feud clone</title>
+      <link>http://localhost:1313/posts/2022/hosa/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/hosa/</guid>
+      <description>&lt;h1 id=&#34;family-feud&#34;&gt;Family Feud&lt;/h1&gt;&#xA;&lt;p&gt;In my senior year of high school, one of my clubs hosted a &amp;ldquo;Game Show Night&amp;rdquo; fundraiser event.&#xA;I decided to create a quick website for our version of Family Feud.&#xA;We were able to successfully play four rounds of the game using this site.&lt;/p&gt;&#xA;&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;&#xA;&lt;p&gt;The code was written in Svelte, which is a JavaScript framework.&#xA;The questions/answers were stored in a JSON file.&lt;/p&gt;&#xA;&lt;p&gt;Live site (may get &amp;ldquo;Dangerous Site&amp;rdquo; warning): &lt;a href=&#34;https://family-feud-hosa.vercel.app/?q=1&#34;&gt;family-feud-hosa.vercel.app&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
