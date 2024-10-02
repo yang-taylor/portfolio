@@ -11,24 +11,27 @@ tag = 'tags'
 [params]
 #  author = "Taylor Yang"
   description = "New graduate portfolio page for Taylor Yang. Includes personal projects, school assignments, and more."
-  header_subtitle = "Currently looking for entry-level in software engineering or data science. Graduating in spring 2025."
+  header_subtitle = """
+    Currently looking for entry-level in software engineering or data science.
+    Graduating in spring 2025.
+    """
   homeIntroContent = "Currently looking for entry-level in software engineering or data science. Graduating in spring 2025."
-  homeCollectionTitle = "Posts"
+  homeCollectionTitle = "Projects"
   homeCollection = "posts"
   paginationSize = 100
   listSummaries = false
   breadcrumbs = true
+  colorPalette = 'catpuccin'
 
-  color = 'light'
-  github = "yang-taylor"
-  linkedin = "yang-taylor"
-
+  [[params.social]]
+    name = "cv"
+    url = "/TaylorYang_Resume_SoftwareEngineering_Oct2024.pdf"
   [[params.social]]
     name = "linkedin"
-    href = "https://linkedin.com/in/yang-taylor"
+    url = "https://linkedin.com/in/yang-taylor"
   [[params.social]]
     name = "github"
-    href = "https://github.com/yang-taylor"
+    url = "https://github.com/yang-taylor"
   [[params.social]]
     name = "email"
-    href = "mailto:tayloryang9264@gmail.com"
+    url = "mailto:tayloryang9264@gmail.com"
