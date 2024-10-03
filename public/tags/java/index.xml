@@ -16,5 +16,12 @@
       <guid>http://localhost:1313/posts/2024/rmgd/</guid>
       <description>&lt;h1 id=&#34;retro-mobile-gaming-database&#34;&gt;Retro Mobile Gaming Database&lt;/h1&gt;&#xA;&lt;p&gt;In Spring 2024, I worked as a software research assistant (RA) in the Networked Mobilities Lab (NML).&#xA;The NML was operated by Dr. Adriana De Souza e Silva in the College of Humanities and Social Sciences, at North Carolina State University.&#xA;While I was in the NML, I was one out of three software RAs.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Retro Mobile Gaming Database (RMGD)&lt;/strong&gt; was an NML project that sought to catalog mobile games from 1975 to 2008.&#xA;Users could search for games using multiple search criteria, filtering by title, year developed, type of game, and so on.&#xA;This could support researchers to find games and find correlations among historical types of mobile games.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>[Java, JS, SQL] Coffee shop inventory and order management system, team course project</title>
+      <link>http://localhost:1313/posts/2023/csc326/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023/csc326/</guid>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 326 Software Engineering&lt;/strong&gt; in Fall 2023.&#xA;This course explored the software development lifecycle, including:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Initiation&lt;/li&gt;&#xA;&lt;li&gt;Design&lt;/li&gt;&#xA;&lt;li&gt;Implementation&lt;/li&gt;&#xA;&lt;li&gt;Testing&lt;/li&gt;&#xA;&lt;li&gt;Deployment&lt;/li&gt;&#xA;&lt;li&gt;Maintenance&lt;/li&gt;&#xA;&lt;li&gt;Agile&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The course project was facilitated through a weekly lab section.&lt;/p&gt;&#xA;&lt;h1 id=&#34;project&#34;&gt;Project&lt;/h1&gt;&#xA;&lt;p&gt;In the first half of the semester, we worked in teams of three to implement prescribed requirements.&#xA;This worked as a warm-up exercise, to prepare us for the second half of the semester.&lt;/p&gt;&#xA;&lt;p&gt;In the second half of the semester, we worked in teams of four to six.&#xA;We wrote our own requirements and designs, then implemented them.&#xA;For the second half of the semester, I worked with four teammates (C. Bolnykh, C. Hardwick, S. Holikatti, A. Senn).&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

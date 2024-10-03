@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matplotlib on Taylor Yang</title>
+    <link>http://localhost:1313/tags/matplotlib/</link>
+    <description>Recent content in Matplotlib on Taylor Yang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2024</copyright>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Python] Unsupervised learning approach to examine patterns or bias of pedestrian identification for autonomous vehicles, team course project</title>
+      <link>http://localhost:1313/posts/2024/csc422/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024/csc422/</guid>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 422 Automated Learning and Data Analysis&lt;/strong&gt; in Spring 2024.&#xA;This course explored machine learning techniques, from decision trees to k-NN, to linear/logistic regression, to neural networks, to clustering.&#xA;Practical application of course content was taught in Python.&lt;/p&gt;&#xA;&lt;h1 id=&#34;final-project&#34;&gt;Final project&lt;/h1&gt;&#xA;&lt;p&gt;The parameters of the final course project were to explore a data mining problem with a &amp;ldquo;novelty&amp;rdquo; factor.&lt;/p&gt;&#xA;&lt;h2 id=&#34;examining-patterns-or-bias-of-pedestrian-identification-for-autonomous-vehicles&#34;&gt;Examining patterns or bias of pedestrian identification for autonomous vehicles&lt;/h2&gt;&#xA;&lt;p&gt;I worked with two teammates (J. Donahue, K. Henry) to evaluate results from a preprint, &lt;a href=&#34;https://arxiv.org/abs/2308.02935&#34;&gt;Bias Behind the Wheel: Fairness Analysis of Autonomous Driving Systems&lt;/a&gt;.&#xA;The original paper discovered that many models were biased against women, dark skin tones, and children.&#xA;As a team, we sought to quantify the risk.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

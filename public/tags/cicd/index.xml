@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cicd on Taylor Yang</title>
+    <link>http://localhost:1313/tags/cicd/</link>
+    <description>Recent content in Cicd on Taylor Yang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2024</copyright>
+    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Java, JS, SQL] Coffee shop inventory and order management system, team course project</title>
+      <link>http://localhost:1313/posts/2023/csc326/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023/csc326/</guid>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 326 Software Engineering&lt;/strong&gt; in Fall 2023.&#xA;This course explored the software development lifecycle, including:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Initiation&lt;/li&gt;&#xA;&lt;li&gt;Design&lt;/li&gt;&#xA;&lt;li&gt;Implementation&lt;/li&gt;&#xA;&lt;li&gt;Testing&lt;/li&gt;&#xA;&lt;li&gt;Deployment&lt;/li&gt;&#xA;&lt;li&gt;Maintenance&lt;/li&gt;&#xA;&lt;li&gt;Agile&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The course project was facilitated through a weekly lab section.&lt;/p&gt;&#xA;&lt;h1 id=&#34;project&#34;&gt;Project&lt;/h1&gt;&#xA;&lt;p&gt;In the first half of the semester, we worked in teams of three to implement prescribed requirements.&#xA;This worked as a warm-up exercise, to prepare us for the second half of the semester.&lt;/p&gt;&#xA;&lt;p&gt;In the second half of the semester, we worked in teams of four to six.&#xA;We wrote our own requirements and designs, then implemented them.&#xA;For the second half of the semester, I worked with four teammates (C. Bolnykh, C. Hardwick, S. Holikatti, A. Senn).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

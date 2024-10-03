@@ -1,97 +1,285 @@
-<!doctype html>
-<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Taylor Yang</title>
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="" />
+<meta name="viewport" content="width=device-width">
 
-    
-    
-    
-    <link rel="stylesheet" href="/css/theme.min.css">
 
-    
-    
-    
 
+<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
     
-</head>
-<body>
-        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
-    <div class="row">
+    [C] AES encryption and descryption, course project | Taylor Yang
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/2023/csc230/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.66ed288e713700859ba6a96e0b16ff08246cb2096b1ac7749bf0627a619f0681.css" media="all">
+
+
+
+
+
+  </head>
+
+  
+
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
         
-        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
-            <a href="/" class="text-decoration-none">
-                <img id="home-image" class="rounded-circle"
-                    
-                        
-                            src="/images/avatar.jpg"
-                        
-                    
-                />
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">Taylor Yang</h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="/posts" >
+                /posts
             </a>
-        </div>
-        <div class="col-sm-8 col-12 text-sm-left text-center">
+        </p>
         
-            <h2 class="m-0 mb-2 mt-4">
-                <a href="/" class="text-decoration-none">
-                    
-                        Taylor Yang
-                    
-                </a>
-            </h2>
-            <p class="text-muted mb-1">
-                
-                    Currently looking for entry-level in software engineering or data science. Graduating in spring 2025.
-                
-            </p>
-            <ul id="nav-links" class="list-inline mb-2">
-                
-                
-            </ul>
-            <ul id="nav-social" class="list-inline">
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="https://linkedin.com/in/yang-taylor" target="_blank">
-                            <i class="fab fa-linkedin-in fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="https://github.com/yang-taylor" target="_blank">
-                            <i class="fab fa-github fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="mailto:tayloryang9264@gmail.com" target="_blank">
-                            <i class="fas fa-envelope fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-    <hr />
-</header>
-<div class="container">
-    <div class="pl-sm-4 ml-sm-5">
-        <h1 id="aes-encryption-and-decription">AES Encryption and Decription</h1>
-
+      
+        <p class="small ">
+            <a href="/tags" >
+                /tags
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+        
     </div>
 
     
 
+</div>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/2023/csc230/">[C] AES encryption and descryption, course project</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">[C] AES encryption and descryption, course project</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2023-04-24T00:00:00&#43;00:00">April 24, 2023</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <h1 id="background">Background</h1>
+<p>In Spring 2023, I took <strong>CSC 230 C and Software Tools</strong>.
+This course explored standard library, compilation, memory management, and debugging for C programs.</p>
+<h2 id="aes-encryption-and-decryption">AES encryption and decryption</h2>
+<p>The encryption/decryption project was the fifth major assignment that we had in the course.
+The objective was to encrypt a text file, then decrypt it as needed.</p>
+<h3 id="ioc"><code>io.c</code></h3>
+<p>The first file was used for file I/O.
+It had two major functions: a reader and a writer.</p>
+<h3 id="aesc"><code>aes.c</code></h3>
+<p>The second file contained the functions in common between encryption and decryption.
+This was the most difficult module to implement, since the functions were very particular about which constants could produce the desired outcome.</p>
+<h3 id="encryptc"><code>encrypt.c</code></h3>
+<p>This file called the functions from <code>aes.c</code>, in order to encrypt a file read in from <code>io.c</code>.</p>
+<h3 id="decryptc"><code>decrypt.c</code></h3>
+<p>This file called the functions from <code>aes.c</code>, in order to decrypt a file read in from <code>io.c</code>.</p>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/2022/hosa/">
+                        [JS] Family Feud clone
+                    </a>
+                </div>
             </div>
-        </div><footer class="text-center pb-1">
-    <small class="text-muted">
-        
-            &copy; 2024
-        
-        <br>
-        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
-        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
-    </small>
-</footer>
-</body>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/2023/csc326/">
+                        [Java, JS, SQL] Coffee shop inventory and order management system, team course project
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
 </html>

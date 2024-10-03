@@ -18,7 +18,7 @@
 
 <title>
     
-    [Java, JS, SQL] Software engineering course project | Taylor Yang
+    [Java, JS, SQL] Coffee shop inventory and order management system, team course project | Taylor Yang
     
 </title>
 
@@ -30,7 +30,12 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.1b30d651819daff0be2eb72e29c6d7b1e8846182d31842822600174f4a20be48.css" media="all">
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.66ed288e713700859ba6a96e0b16ff08246cb2096b1ac7749bf0627a619f0681.css" media="all">
 
 
 
@@ -58,6 +63,29 @@
         
 
         
+        
+      
+        <p class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/tags" >
+                /tags
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+        
     </div>
 
     
@@ -81,7 +109,7 @@
     <a href="/posts/">Posts</a>
     <span class="breadcrumbs-separator"> > </span>
     
-    <a class="breadcrumbs-current" href="/posts/2023/csc326/">[Java, JS, SQL] Software engineering course project</a>
+    <a class="breadcrumbs-current" href="/posts/2023/csc326/">[Java, JS, SQL] Coffee shop inventory and order management system, team course project</a>
 </div>
 
 
@@ -92,7 +120,7 @@
 
     
 
-    <h1 class="single-title">[Java, JS, SQL] Software engineering course project</h1>
+    <h1 class="single-title">[Java, JS, SQL] Coffee shop inventory and order management system, team course project</h1>
     
 
     
@@ -118,7 +146,57 @@
   
 
   <div class="single-content">
-    <h1 id="coffee-maker">Coffee Maker</h1>
+    <h1 id="background">Background</h1>
+<p>I took <strong>CSC 326 Software Engineering</strong> in Fall 2023.
+This course explored the software development lifecycle, including:</p>
+<ol>
+<li>Initiation</li>
+<li>Design</li>
+<li>Implementation</li>
+<li>Testing</li>
+<li>Deployment</li>
+<li>Maintenance</li>
+<li>Agile</li>
+</ol>
+<p>The course project was facilitated through a weekly lab section.</p>
+<h1 id="project">Project</h1>
+<p>In the first half of the semester, we worked in teams of three to implement prescribed requirements.
+This worked as a warm-up exercise, to prepare us for the second half of the semester.</p>
+<p>In the second half of the semester, we worked in teams of four to six.
+We wrote our own requirements and designs, then implemented them.
+For the second half of the semester, I worked with four teammates (C. Bolnykh, C. Hardwick, S. Holikatti, A. Senn).</p>
+<p>The back end of the project was written in Java, using Java Spring. The front end in JavaScript, using AngularJS.
+The data was stored in a MySQL database.</p>
+<h2 id="coffee-maker">Coffee Maker</h2>
+<p>In summary, Coffee Maker was a beverage ordering and fulfillment system.
+Users could sign in as baristas or customers.
+A barista could manage inventory, create and edit recipes, and view and fulfill orders.
+A customer could place an order and view its completion status.</p>
+<h2 id="agile">Agile</h2>
+<p>The weekly lab sessions were operated on a biweekly cadence.
+In the first week, we&rsquo;d work on design.
+In the second week, we&rsquo;d work on implementation and test.
+We had two major iterations in the second half of the semester.</p>
+<h2 id="design">Design</h2>
+<p>To support our design process, we developed the following documents:</p>
+<ul>
+<li>UML class diagrams</li>
+<li>Sequence diagrams</li>
+<li>API endpoint descriptions</li>
+</ul>
+<p>In each iteration, we would revise our documents to match up with our updated requirements.</p>
+<h2 id="implementation-and-test">Implementation and test</h2>
+<p>The most difficult part of implementation was integrating Spring Security.
+This was because in order to implement user roles, a customer would not be able to access what the barista could access, and vice versa.
+Testing required additional annotations, in order to ensure that each page and operation had the correct restrictions in place.</p>
+<p>The majority of the website&rsquo;s functionality was based around CRUD activities.
+A barista could create a recipe, a customer could create an order.
+A barista could read recipes, inventory, and orders.
+A barista could update inventory.
+A barista could delete recipes.</p>
+<p>These operations were reflected in our API endpoints, which were created with the RESTful framework in mind.</p>
+<h2 id="additional-artifacts">Additional Artifacts</h2>
+<p>In addition to producing design documents and code, we also wrote a Privacy Policy and generated a Security Audit.</p>
 
     
   </div>
@@ -141,8 +219,8 @@
             <div class="single-pagination-container-prev">
                 <div class="single-pagination-text">←</div>
                 <div class="single-pagination-text">
-                    <a href="/posts/2022/hosa/">
-                        [JS] Family Feud clone
+                    <a href="/posts/2023/csc230/">
+                        [C] AES encryption and descryption, course project
                     </a>
                 </div>
             </div>
@@ -154,7 +232,7 @@
             <div class="single-pagination-container-next">
                 <div class="single-pagination-text">
                     <a href="/posts/2024/csc442/">
-                        [R] Data wrangling and unsupervised learning course project
+                        [R] Data wrangling and unsupervised learning on popular films and movies, team course project
                     </a>
                 </div>
                 <div class="single-pagination-text">→</div>

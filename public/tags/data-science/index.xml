@@ -10,11 +10,11 @@
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[R] Data wrangling and unsupervised learning course project</title>
+      <title>[R] Data wrangling and unsupervised learning on popular films and movies, team course project</title>
       <link>http://localhost:1313/posts/2024/csc442/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2024/csc442/</guid>
-      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 442 Introduction to Data Science&lt;/strong&gt; in Spring 2024.&#xA;This course explored the data science lifecycle, including data collection, data wrangling and cleaning, data mining, data analysis, and data visualization.&#xA;Practical applications of course content was taught in R.&lt;/p&gt;&#xA;&lt;h1 id=&#34;final-project&#34;&gt;Final project&lt;/h1&gt;&#xA;&lt;p&gt;The parameters of the final course project were to find two large data sets and find &amp;ldquo;something interesting&amp;rdquo; about the data.&#xA;We could use any technique or any dataset.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 442 Introduction to Data Science&lt;/strong&gt; in Spring 2024.&#xA;This course explored the data science lifecycle, including data collection, data wrangling and cleaning, data mining, data analysis, and data visualization.&#xA;Practical application of course content was taught in R.&lt;/p&gt;&#xA;&lt;h1 id=&#34;final-project&#34;&gt;Final project&lt;/h1&gt;&#xA;&lt;p&gt;The parameters of the final course project were to find two large data sets and find &amp;ldquo;something interesting&amp;rdquo; about the data.&#xA;We could use any technique or any dataset.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

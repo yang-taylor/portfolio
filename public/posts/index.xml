@@ -17,11 +17,32 @@
       <description>&lt;h1 id=&#34;retro-mobile-gaming-database&#34;&gt;Retro Mobile Gaming Database&lt;/h1&gt;&#xA;&lt;p&gt;In Spring 2024, I worked as a software research assistant (RA) in the Networked Mobilities Lab (NML).&#xA;The NML was operated by Dr. Adriana De Souza e Silva in the College of Humanities and Social Sciences, at North Carolina State University.&#xA;While I was in the NML, I was one out of three software RAs.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Retro Mobile Gaming Database (RMGD)&lt;/strong&gt; was an NML project that sought to catalog mobile games from 1975 to 2008.&#xA;Users could search for games using multiple search criteria, filtering by title, year developed, type of game, and so on.&#xA;This could support researchers to find games and find correlations among historical types of mobile games.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[R] Data wrangling and unsupervised learning course project</title>
+      <title>[Python] Unsupervised learning approach to examine patterns or bias of pedestrian identification for autonomous vehicles, team course project</title>
+      <link>http://localhost:1313/posts/2024/csc422/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024/csc422/</guid>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 422 Automated Learning and Data Analysis&lt;/strong&gt; in Spring 2024.&#xA;This course explored machine learning techniques, from decision trees to k-NN, to linear/logistic regression, to neural networks, to clustering.&#xA;Practical application of course content was taught in Python.&lt;/p&gt;&#xA;&lt;h1 id=&#34;final-project&#34;&gt;Final project&lt;/h1&gt;&#xA;&lt;p&gt;The parameters of the final course project were to explore a data mining problem with a &amp;ldquo;novelty&amp;rdquo; factor.&lt;/p&gt;&#xA;&lt;h2 id=&#34;examining-patterns-or-bias-of-pedestrian-identification-for-autonomous-vehicles&#34;&gt;Examining patterns or bias of pedestrian identification for autonomous vehicles&lt;/h2&gt;&#xA;&lt;p&gt;I worked with two teammates (J. Donahue, K. Henry) to evaluate results from a preprint, &lt;a href=&#34;https://arxiv.org/abs/2308.02935&#34;&gt;Bias Behind the Wheel: Fairness Analysis of Autonomous Driving Systems&lt;/a&gt;.&#xA;The original paper discovered that many models were biased against women, dark skin tones, and children.&#xA;As a team, we sought to quantify the risk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[R] Data wrangling and unsupervised learning on popular films and movies, team course project</title>
       <link>http://localhost:1313/posts/2024/csc442/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2024/csc442/</guid>
-      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 442 Introduction to Data Science&lt;/strong&gt; in Spring 2024.&#xA;This course explored the data science lifecycle, including data collection, data wrangling and cleaning, data mining, data analysis, and data visualization.&#xA;Practical applications of course content was taught in R.&lt;/p&gt;&#xA;&lt;h1 id=&#34;final-project&#34;&gt;Final project&lt;/h1&gt;&#xA;&lt;p&gt;The parameters of the final course project were to find two large data sets and find &amp;ldquo;something interesting&amp;rdquo; about the data.&#xA;We could use any technique or any dataset.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 442 Introduction to Data Science&lt;/strong&gt; in Spring 2024.&#xA;This course explored the data science lifecycle, including data collection, data wrangling and cleaning, data mining, data analysis, and data visualization.&#xA;Practical application of course content was taught in R.&lt;/p&gt;&#xA;&lt;h1 id=&#34;final-project&#34;&gt;Final project&lt;/h1&gt;&#xA;&lt;p&gt;The parameters of the final course project were to find two large data sets and find &amp;ldquo;something interesting&amp;rdquo; about the data.&#xA;We could use any technique or any dataset.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Java, JS, SQL] Coffee shop inventory and order management system, team course project</title>
+      <link>http://localhost:1313/posts/2023/csc326/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023/csc326/</guid>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I took &lt;strong&gt;CSC 326 Software Engineering&lt;/strong&gt; in Fall 2023.&#xA;This course explored the software development lifecycle, including:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Initiation&lt;/li&gt;&#xA;&lt;li&gt;Design&lt;/li&gt;&#xA;&lt;li&gt;Implementation&lt;/li&gt;&#xA;&lt;li&gt;Testing&lt;/li&gt;&#xA;&lt;li&gt;Deployment&lt;/li&gt;&#xA;&lt;li&gt;Maintenance&lt;/li&gt;&#xA;&lt;li&gt;Agile&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The course project was facilitated through a weekly lab section.&lt;/p&gt;&#xA;&lt;h1 id=&#34;project&#34;&gt;Project&lt;/h1&gt;&#xA;&lt;p&gt;In the first half of the semester, we worked in teams of three to implement prescribed requirements.&#xA;This worked as a warm-up exercise, to prepare us for the second half of the semester.&lt;/p&gt;&#xA;&lt;p&gt;In the second half of the semester, we worked in teams of four to six.&#xA;We wrote our own requirements and designs, then implemented them.&#xA;For the second half of the semester, I worked with four teammates (C. Bolnykh, C. Hardwick, S. Holikatti, A. Senn).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[C] AES encryption and descryption, course project</title>
+      <link>http://localhost:1313/posts/2023/csc230/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023/csc230/</guid>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;In Spring 2023, I took &lt;strong&gt;CSC 230 C and Software Tools&lt;/strong&gt;.&#xA;This course explored standard library, compilation, memory management, and debugging for C programs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aes-encryption-and-decryption&#34;&gt;AES encryption and decryption&lt;/h2&gt;&#xA;&lt;p&gt;The encryption/decryption project was the fifth major assignment that we had in the course.&#xA;The objective was to encrypt a text file, then decrypt it as needed.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ioc&#34;&gt;&lt;code&gt;io.c&lt;/code&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The first file was used for file I/O.&#xA;It had two major functions: a reader and a writer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[JS] Family Feud clone</title>

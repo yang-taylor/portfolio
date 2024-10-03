@@ -45,6 +45,13 @@
       <description></description>
     </item>
     <item>
+      <title>Course</title>
+      <link>http://localhost:1313/tags/course/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/course/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Data Analysis</title>
       <link>http://localhost:1313/tags/data-analysis/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
@@ -59,10 +66,87 @@
       <description></description>
     </item>
     <item>
+      <title>Matplotlib</title>
+      <link>http://localhost:1313/tags/matplotlib/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Numpy</title>
+      <link>http://localhost:1313/tags/numpy/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/numpy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandas</title>
+      <link>http://localhost:1313/tags/pandas/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pandas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>R</title>
       <link>http://localhost:1313/tags/r/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scikit-Learn</title>
+      <link>http://localhost:1313/tags/scikit-learn/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agile</title>
+      <link>http://localhost:1313/tags/agile/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/agile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Angularjs</title>
+      <link>http://localhost:1313/tags/angularjs/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/angularjs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cicd</title>
+      <link>http://localhost:1313/tags/cicd/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cicd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java Spring</title>
+      <link>http://localhost:1313/tags/java-spring/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/java-spring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>http://localhost:1313/tags/c/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptography</title>
+      <link>http://localhost:1313/tags/cryptography/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cryptography/</guid>
       <description></description>
     </item>
     <item>

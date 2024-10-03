@@ -23,6 +23,16 @@ tag = 'tags'
   breadcrumbs = true
   colorPalette = 'catpuccin'
 
+  [[params.menu]]
+    name = "posts"
+    url = "/posts"
+  [[params.menu]]
+    name = "tags"
+    url = "/tags"
+  [[params.menu]]
+    name = "about"
+    url = "/about"
+
   [[params.social]]
     name = "cv"
     url = "/TaylorYang_Resume_SoftwareEngineering_Oct2024.pdf"
